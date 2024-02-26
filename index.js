@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hey Bro...! My name is Mihir Suthar!!!\n'
+  const msg = 'Hey Bro...! This is a node project testing!!!\n'
   res.end(msg);
 });
 
